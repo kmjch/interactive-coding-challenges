@@ -1,202 +1,3 @@
-<br/>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_challenge.gif">
-</p>
-
-## April 2017 - Huge Update!
-
-[**Overhauled**](https://github.com/donnemartin/interactive-coding-challenges/pull/153) to now include **120 challenges and solutions** and added [Anki flashcards](#anki-flashcards-coding-and-design).
-
-Also included are **unit tested reference implementations** of various [data structures](#reference-implementations-data-structures) and [algorithms](#reference-implementations-algorithms).
-
-interactive-coding-challenges
-============
-
-**Continually updated, interactive and test-driven coding challenges**.
-
-Challenges focus on **algorithms** and **data structures** found in **coding interviews**.
-
-Each challenge has one or more reference solutions that are:
-
-* Fully functional
-* Unit tested
-* Easy-to-understand
-
-Challenges will soon provide on-demand [incremental hints](https://github.com/donnemartin/interactive-coding-challenges/issues/22) to help you arrive at the optimal solution.
-
-Notebooks also detail:
-
-* Constraints
-* Test cases
-* Algorithms
-* Big-O time and space complexities
-
-## Challenge Solutions
-
-<br/>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_solution.gif">
-</p>
-<br/>
-
-## Anki Flashcards: Coding and Design
-
-<p align="center">
-  <img src="http://i.imgur.com/b4YtAEN.png">
-  <br/>
-</p>
-
-The provided [Anki flashcard deck](https://apps.ankiweb.net/) uses spaced repetition to help you retain key concepts.
-
-* [Coding deck](anki_cards/Coding.apkg)
-
-Great for use while on-the-go.
-
-### Design Resource: The System Design Primer
-
-Looking for resources to help you prep for the **System Design** and **Object-Oriented Design interviews**?
-
-<p align="center">
-  <img src="http://i.imgur.com/zdCAkB3.png">
-  <br/>
-</p>
-
-Check out the sister repo [The System Design Primer](https://github.com/donnemartin/system-design-primer), which contains additional Anki decks:
-
-* [System design deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/System%20Design.apkg)
-* [System design exercises deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/System%20Design%20Exercises.apkg)
-* [Object oriented design exercises deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/OO%20Design.apkg)
-
-![](https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3/687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67)
-
-## Notebook Structure
-
-Each challenge has two notebooks, a **challenge notebook** with unit tests for you to solve and a **solution notebook** for reference.
-
-### Problem Statement
-
-* States the problem to solve.
-
-### Constraints
-
-* Describes any constraints or assumptions.
-
-### Test Cases
-
-* Describes the general and edge test cases that will be evaluated in the unit test.
-
-### Algorithm
-
-* [Challenge Notebook] Empty, refer to the solution notebook algorithm section if you need a hint.
-* [Solution Notebook] One or more algorithm solution discussions, with Big-O time and space complexities.
-
-### Hints
-
-* [Challenge Notebook] Provides on-demand [incremental hints](https://github.com/donnemartin/interactive-coding-challenges/issues/22) to help you arrive at the optimal solution.  Coming soon!
-
-### Code (Challenge: Implement Me!)
-
-* [Challenge Notebook] Skeleton code for you to implement.
-* [Solution Notebook] One or more reference solutions.
-
-### Unit Test
-
-* [Challenge Notebook] Unit test for your code.  Expected to fail until you solve the challenge.
-* [Solution Notebook] Unit test for the reference solution(s).
-
-## Index
-
-### Challenges Categories
-
-**Format**: Challenge Category - Number of Challenges
-
-* [Arrays and Strings](#arrays-and-strings) - 10
-* [Linked Lists](#linked-lists) - 8
-* [Stacks and Queues](#stacks-and-queues) - 8
-* [Graphs and Trees](#graphs-and-trees) - 21
-* [Sorting](#sorting) - 10
-* [Recursion and Dynamic Programming](#recursion-and-dynamic-programming) - 17
-* [Mathematics and Probability](#mathematics-and-probability) - 6
-* [Bit Manipulation](#bit-manipulation) - 8
-* [Online Judges](#online-judges) - 16
-* [System Design](https://github.com/donnemartin/system-design-primer#system-design-interview-questions-with-solutions) - 8
-* [Object Oriented Design](https://github.com/donnemartin/system-design-primer#object-oriented-design-interview-questions-with-solutions) - 8
-
-**Total number of challenges: 120**
-
-### Reference Implementations: Data Structures
-
-Unit tested, fully functional implementations of the following data structures:
-
-* [Linked List](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/linked_list/linked_list_solution.ipynb)
-* [Stack](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/stack/stack_solution.ipynb)
-* [Queue](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/queue_list/queue_list_solution.ipynb)
-* [Binary Search Tree](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/bst/bst_solution.ipynb)
-* [Graph](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph/graph_solution.ipynb)
-* [Min Heap](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/min_heap/min_heap_solution.ipynb)
-* [Trie](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/trie/trie_solution.ipynb)
-* [Priority Queue](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/arrays_strings/priority_queue/priority_queue_solution.ipynb)
-* [Hash Map](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/arrays_strings/hash_map/hash_map_solution.ipynb)
-
-### Reference Implementations: Algorithms
-
-Unit tested, fully functional implementations of the following algorithms:
-
-* [Selection Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/selection_sort/selection_sort_solution.ipynb)
-* [Insertion Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/insertion_sort/insertion_sort_solution.ipynb)
-* [Quick Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/quick_sort/quick_sort_solution.ipynb)
-* [Merge Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/merge_sort/merge_sort_solution.ipynb)
-* [Radix Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/radix_sort/radix_sort_solution.ipynb)
-* [Topological Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_build_order/build_order_solution.ipynb)
-* [Tree Depth-First Search (Pre-, In-, Post-Order)](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/tree_dfs/dfs_solution.ipynb)
-* [Tree Breadth-First Search](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/tree_bfs/bfs_solution.ipynb)
-* [Graph Depth-First Search](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_dfs/dfs_solution.ipynb)
-* [Graph Breadth-First Search](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_bfs/bfs_solution.ipynb)
-* [Dijkstra's Shortest Path](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_shortest_path/graph_shortest_path_solution.ipynb)
-* [Unweighted Graph Shortest Path](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_shortest_path_unweighted/shortest_path_solution.ipynb)
-* [Knapsack 0/1](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_01/knapsack_solution.ipynb)
-* [Knapsack Unbounded](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_unbounded/knapsack_unbounded_solution.ipynb)
-* [Sieve of Eratosthenes](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/math_probability/generate_primes/check_prime_solution.ipynb)
-
-### Reference Implementations: TODO
-
-* [A*](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Bellman-Ford](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Bloom Filter](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Convex Hull](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Fisher-Yates Shuffle](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Kruskal's](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Max Flow](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Prim's](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Rabin-Karp](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Traveling Salesman](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Union Find](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-
-### Installing and Running Challenges
-
-* [Repo Structure](#repo-structure)
-* [Notebook Installation](#notebook-installation)
-    * [Nose Installation](#nose-installation)
-* [Running Challenges](#running-challenges)
-
-### Misc
-
-* [Contributing](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
-* [Credits](#credits)
-* [Contact Info](#contact-info)
-* [License](#license)
-
-## Challenges
-
-[Image Credits](#credits)
-
-<br/>
-<p>
-  <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/arrays_nltk.png">
-</p>
-<br/>
-
 ### Arrays and Strings
 
 | Challenge | Static Notebook |
@@ -421,6 +222,205 @@ Unit tested, fully functional implementations of the following algorithms:
 | Utopian tree | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/online_judges/utopian_tree/utopian_tree_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/online_judges/utopian_tree/utopian_tree_solution.ipynb) |
 | Maximizing xor | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/online_judges/maximizing_xor/maximizing_xor_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/online_judges/maximizing_xor/maximizing_xor_solution.ipynb) |
 | Add a challenge | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
+
+<br/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_challenge.gif">
+</p>
+
+## April 2017 - Huge Update!
+
+[**Overhauled**](https://github.com/donnemartin/interactive-coding-challenges/pull/153) to now include **120 challenges and solutions** and added [Anki flashcards](#anki-flashcards-coding-and-design).
+
+Also included are **unit tested reference implementations** of various [data structures](#reference-implementations-data-structures) and [algorithms](#reference-implementations-algorithms).
+
+interactive-coding-challenges
+============
+
+**Continually updated, interactive and test-driven coding challenges**.
+
+Challenges focus on **algorithms** and **data structures** found in **coding interviews**.
+
+Each challenge has one or more reference solutions that are:
+
+* Fully functional
+* Unit tested
+* Easy-to-understand
+
+Challenges will soon provide on-demand [incremental hints](https://github.com/donnemartin/interactive-coding-challenges/issues/22) to help you arrive at the optimal solution.
+
+Notebooks also detail:
+
+* Constraints
+* Test cases
+* Algorithms
+* Big-O time and space complexities
+
+## Challenge Solutions
+
+<br/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_solution.gif">
+</p>
+<br/>
+
+## Anki Flashcards: Coding and Design
+
+<p align="center">
+  <img src="http://i.imgur.com/b4YtAEN.png">
+  <br/>
+</p>
+
+The provided [Anki flashcard deck](https://apps.ankiweb.net/) uses spaced repetition to help you retain key concepts.
+
+* [Coding deck](anki_cards/Coding.apkg)
+
+Great for use while on-the-go.
+
+### Design Resource: The System Design Primer
+
+Looking for resources to help you prep for the **System Design** and **Object-Oriented Design interviews**?
+
+<p align="center">
+  <img src="http://i.imgur.com/zdCAkB3.png">
+  <br/>
+</p>
+
+Check out the sister repo [The System Design Primer](https://github.com/donnemartin/system-design-primer), which contains additional Anki decks:
+
+* [System design deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/System%20Design.apkg)
+* [System design exercises deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/System%20Design%20Exercises.apkg)
+* [Object oriented design exercises deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/OO%20Design.apkg)
+
+![](https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3/687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67)
+
+## Notebook Structure
+
+Each challenge has two notebooks, a **challenge notebook** with unit tests for you to solve and a **solution notebook** for reference.
+
+### Problem Statement
+
+* States the problem to solve.
+
+### Constraints
+
+* Describes any constraints or assumptions.
+
+### Test Cases
+
+* Describes the general and edge test cases that will be evaluated in the unit test.
+
+### Algorithm
+
+* [Challenge Notebook] Empty, refer to the solution notebook algorithm section if you need a hint.
+* [Solution Notebook] One or more algorithm solution discussions, with Big-O time and space complexities.
+
+### Hints
+
+* [Challenge Notebook] Provides on-demand [incremental hints](https://github.com/donnemartin/interactive-coding-challenges/issues/22) to help you arrive at the optimal solution.  Coming soon!
+
+### Code (Challenge: Implement Me!)
+
+* [Challenge Notebook] Skeleton code for you to implement.
+* [Solution Notebook] One or more reference solutions.
+
+### Unit Test
+
+* [Challenge Notebook] Unit test for your code.  Expected to fail until you solve the challenge.
+* [Solution Notebook] Unit test for the reference solution(s).
+
+## Index
+
+### Challenges Categories
+
+**Format**: Challenge Category - Number of Challenges
+
+* [Arrays and Strings](#arrays-and-strings) - 10
+* [Linked Lists](#linked-lists) - 8
+* [Stacks and Queues](#stacks-and-queues) - 8
+* [Graphs and Trees](#graphs-and-trees) - 21
+* [Sorting](#sorting) - 10
+* [Recursion and Dynamic Programming](#recursion-and-dynamic-programming) - 17
+* [Mathematics and Probability](#mathematics-and-probability) - 6
+* [Bit Manipulation](#bit-manipulation) - 8
+* [Online Judges](#online-judges) - 16
+* [System Design](https://github.com/donnemartin/system-design-primer#system-design-interview-questions-with-solutions) - 8
+* [Object Oriented Design](https://github.com/donnemartin/system-design-primer#object-oriented-design-interview-questions-with-solutions) - 8
+
+**Total number of challenges: 120**
+
+### Reference Implementations: Data Structures
+
+Unit tested, fully functional implementations of the following data structures:
+
+* [Linked List](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/linked_list/linked_list_solution.ipynb)
+* [Stack](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/stack/stack_solution.ipynb)
+* [Queue](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/stacks_queues/queue_list/queue_list_solution.ipynb)
+* [Binary Search Tree](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/bst/bst_solution.ipynb)
+* [Graph](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph/graph_solution.ipynb)
+* [Min Heap](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/min_heap/min_heap_solution.ipynb)
+* [Trie](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/trie/trie_solution.ipynb)
+* [Priority Queue](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/arrays_strings/priority_queue/priority_queue_solution.ipynb)
+* [Hash Map](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/arrays_strings/hash_map/hash_map_solution.ipynb)
+
+### Reference Implementations: Algorithms
+
+Unit tested, fully functional implementations of the following algorithms:
+
+* [Selection Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/selection_sort/selection_sort_solution.ipynb)
+* [Insertion Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/insertion_sort/insertion_sort_solution.ipynb)
+* [Quick Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/quick_sort/quick_sort_solution.ipynb)
+* [Merge Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/merge_sort/merge_sort_solution.ipynb)
+* [Radix Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/sorting_searching/radix_sort/radix_sort_solution.ipynb)
+* [Topological Sort](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_build_order/build_order_solution.ipynb)
+* [Tree Depth-First Search (Pre-, In-, Post-Order)](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/tree_dfs/dfs_solution.ipynb)
+* [Tree Breadth-First Search](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/tree_bfs/bfs_solution.ipynb)
+* [Graph Depth-First Search](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_dfs/dfs_solution.ipynb)
+* [Graph Breadth-First Search](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_bfs/bfs_solution.ipynb)
+* [Dijkstra's Shortest Path](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_shortest_path/graph_shortest_path_solution.ipynb)
+* [Unweighted Graph Shortest Path](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/graphs_trees/graph_shortest_path_unweighted/shortest_path_solution.ipynb)
+* [Knapsack 0/1](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_01/knapsack_solution.ipynb)
+* [Knapsack Unbounded](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_unbounded/knapsack_unbounded_solution.ipynb)
+* [Sieve of Eratosthenes](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/math_probability/generate_primes/check_prime_solution.ipynb)
+
+### Reference Implementations: TODO
+
+* [A*](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Bellman-Ford](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Bloom Filter](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Convex Hull](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Fisher-Yates Shuffle](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Kruskal's](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Max Flow](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Prim's](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Rabin-Karp](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Traveling Salesman](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Union Find](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+
+### Installing and Running Challenges
+
+* [Repo Structure](#repo-structure)
+* [Notebook Installation](#notebook-installation)
+    * [Nose Installation](#nose-installation)
+* [Running Challenges](#running-challenges)
+
+### Misc
+
+* [Contributing](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)
+* [Credits](#credits)
+* [Contact Info](#contact-info)
+* [License](#license)
+
+## Challenges
+
+[Image Credits](#credits)
+
+<br/>
+<p>
+  <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/arrays_nltk.png">
+</p>
+<br/>
 
 ## Repo Structure
 
